@@ -13,6 +13,9 @@ from config.logger import log
 from ui.utils.form_helpers import clean_text
 from ui.utils.ui_helpers import apply_style
 
+# NEW IMPORT
+from ui.widgets.payment_mode import PaymentModeCombo
+
 
 class InventoryForm(BaseForm):
 
@@ -43,7 +46,8 @@ class InventoryForm(BaseForm):
         self.purchase_date.setDisplayFormat("yyyy-MM-dd")
         self.purchase_date.setDate(QDate.currentDate())
 
-        self.payment_mode = QLineEdit()
+        # PAYMENT MODE (Reusable Widget)
+        self.payment_mode = PaymentModeCombo()
 
         self.price_tag = QDoubleSpinBox()
         self.price_tag.setPrefix("₹ ")
@@ -181,7 +185,8 @@ class InventoryForm(BaseForm):
                     QDate.fromString(purchase_date, "yyyy-MM-dd")
                 )
 
-            self.payment_mode.setText(payment_mode or "")
+            # PAYMENT MODE
+            self.payment_mode.set_value(payment_mode)
 
             self.price_tag.setValue(float(price_tag or 0))
 
@@ -230,7 +235,7 @@ class InventoryForm(BaseForm):
             clean_text(self.bill_no.text()),
             self.purchase_price.value(),
             self.purchase_date.date().toString("yyyy-MM-dd"),
-            clean_text(self.payment_mode.text()),
+            self.payment_mode.get_value(),   # UPDATED
             self.price_tag.value(),
             int(self.sold.isChecked()),
             clean_text(self.notes.toPlainText()),

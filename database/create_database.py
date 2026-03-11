@@ -174,6 +174,7 @@ def create_inventory_database(drop_existing=False):
             phone_1 TEXT,
             phone_2 TEXT,
             amount REAL,
+            payment_mode TEXT,
             is_active BOOLEAN DEFAULT 1,
             created_at TEXT DEFAULT CURRENT_TIMESTAMP,
             updated_at TEXT DEFAULT CURRENT_TIMESTAMP

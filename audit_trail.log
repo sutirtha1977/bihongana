@@ -1,52 +1,27 @@
-[2026-03-09 22:19:25] Menu clicked: Admin
-[2026-03-09 22:19:28] ⚠️ Dropping existing inventory tables...
-[2026-03-09 22:19:28] Dropping table: sales
-[2026-03-09 22:19:28] Dropping table: inventory
-[2026-03-09 22:19:28] Dropping table: expense
-[2026-03-09 22:19:28] Dropping table: customer
-[2026-03-09 22:19:28] Dropping table: seller
-[2026-03-09 22:19:28] Dropping table: owner
-[2026-03-09 22:19:28] ✅ Existing tables dropped
-[2026-03-09 22:19:28] 🎉 Inventory database (including expense table) created successfully
-[2026-03-09 22:19:29] 📥 Import started → customer
-[2026-03-09 22:19:30] ✅ Excel loaded | rows=119
-[2026-03-09 22:19:30] 🎉 119 rows imported into customer
-[2026-03-09 22:19:31] 📥 Import started → seller
-[2026-03-09 22:19:31] ✅ Excel loaded | rows=23
-[2026-03-09 22:19:31] 🎉 23 rows imported into seller
-[2026-03-09 22:19:33] 📥 Import started → inventory
-[2026-03-09 22:19:33] ✅ Excel loaded | rows=714
-[2026-03-09 22:19:33] 🎉 714 inventory rows imported (warnings: 0)
-[2026-03-09 22:19:35] 📥 Import started → expense
-[2026-03-09 22:19:35] ✅ Excel loaded | rows=77
-[2026-03-09 22:19:35] 🎉 77 rows imported into expense
-[2026-03-09 22:19:37] 📥 Import started → owner
-[2026-03-09 22:19:37] ✅ Excel loaded | rows=2
-[2026-03-09 22:19:37] 🎉 2 rows imported into owner
-[2026-03-09 22:19:41] Menu clicked: Export Database
-[2026-03-09 22:19:42] 🎉 Database exported successfully to '/Users/sutirtha/Desktop/Python_Projects/bihongana/data/bihongana.xlsx'
-[2026-03-09 22:19:55] ⚠️ Dropping existing inventory tables...
-[2026-03-09 22:19:55] Dropping table: sales
-[2026-03-09 22:19:55] Dropping table: inventory
-[2026-03-09 22:19:55] Dropping table: expense
-[2026-03-09 22:19:55] Dropping table: customer
-[2026-03-09 22:19:55] Dropping table: seller
-[2026-03-09 22:19:55] Dropping table: owner
-[2026-03-09 22:19:55] ✅ Existing tables dropped
-[2026-03-09 22:19:56] 🎉 Inventory database (including expense table) created successfully
-[2026-03-09 22:19:57] 📥 Import started → customer
-[2026-03-09 22:19:57] ✅ Excel loaded | rows=119
-[2026-03-09 22:19:57] 🎉 119 rows imported into customer
-[2026-03-09 22:19:59] 📥 Import started → seller
-[2026-03-09 22:19:59] ✅ Excel loaded | rows=23
-[2026-03-09 22:19:59] 🎉 23 rows imported into seller
-[2026-03-09 22:20:02] 📥 Import started → inventory
-[2026-03-09 22:20:02] ✅ Excel loaded | rows=714
-[2026-03-09 22:20:02] 🎉 714 inventory rows imported (warnings: 0)
-[2026-03-09 22:20:04] 📥 Import started → expense
-[2026-03-09 22:20:04] ✅ Excel loaded | rows=77
-[2026-03-09 22:20:04] 🎉 77 rows imported into expense
-[2026-03-09 22:20:06] 📥 Import started → owner
-[2026-03-09 22:20:06] ✅ Excel loaded | rows=2
-[2026-03-09 22:20:06] 🎉 2 rows imported into owner
-[2026-03-09 22:20:12] Menu clicked: Exit
+[2026-03-10 22:22:57] Menu clicked: Admin
+[2026-03-10 22:22:59] ⚠️ Dropping existing inventory tables...
+[2026-03-10 22:22:59] Dropping table: sales
+[2026-03-10 22:22:59] Dropping table: inventory
+[2026-03-10 22:22:59] Dropping table: expense
+[2026-03-10 22:22:59] Dropping table: customer
+[2026-03-10 22:22:59] Dropping table: seller
+[2026-03-10 22:22:59] Dropping table: owner
+[2026-03-10 22:22:59] ✅ Existing tables dropped
+[2026-03-10 22:22:59] 🎉 Inventory database (including expense table) created successfully
+[2026-03-10 22:23:01] 📥 Import started → customer
+[2026-03-10 22:23:01] ✅ Excel loaded | rows=119
+[2026-03-10 22:23:01] 🎉 119 rows imported into customer
+[2026-03-10 22:23:04] 📥 Import started → seller
+[2026-03-10 22:23:04] ✅ Excel loaded | rows=23
+[2026-03-10 22:23:04] 🎉 23 rows imported into seller
+[2026-03-10 22:23:06] 📥 Import started → inventory
+[2026-03-10 22:23:06] ✅ Excel loaded | rows=714
+[2026-03-10 22:23:06] 🎉 714 inventory rows imported (warnings: 0)
+[2026-03-10 22:23:07] 📥 Import started → expense
+[2026-03-10 22:23:08] ✅ Excel loaded | rows=77
+[2026-03-10 22:23:08] 🎉 77 rows imported into expense
+[2026-03-10 22:23:09] 📥 Import started → owner
+[2026-03-10 22:23:09] ✅ Excel loaded | rows=2
+[2026-03-10 22:23:09] 🎉 2 rows imported into owner
+[2026-03-10 22:23:12] Menu clicked: Reporting
+[2026-03-10 22:23:46] Menu clicked: Exit
