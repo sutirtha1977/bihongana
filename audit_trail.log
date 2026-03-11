@@ -1,27 +1,5 @@
-[2026-03-10 22:22:57] Menu clicked: Admin
-[2026-03-10 22:22:59] ⚠️ Dropping existing inventory tables...
-[2026-03-10 22:22:59] Dropping table: sales
-[2026-03-10 22:22:59] Dropping table: inventory
-[2026-03-10 22:22:59] Dropping table: expense
-[2026-03-10 22:22:59] Dropping table: customer
-[2026-03-10 22:22:59] Dropping table: seller
-[2026-03-10 22:22:59] Dropping table: owner
-[2026-03-10 22:22:59] ✅ Existing tables dropped
-[2026-03-10 22:22:59] 🎉 Inventory database (including expense table) created successfully
-[2026-03-10 22:23:01] 📥 Import started → customer
-[2026-03-10 22:23:01] ✅ Excel loaded | rows=119
-[2026-03-10 22:23:01] 🎉 119 rows imported into customer
-[2026-03-10 22:23:04] 📥 Import started → seller
-[2026-03-10 22:23:04] ✅ Excel loaded | rows=23
-[2026-03-10 22:23:04] 🎉 23 rows imported into seller
-[2026-03-10 22:23:06] 📥 Import started → inventory
-[2026-03-10 22:23:06] ✅ Excel loaded | rows=714
-[2026-03-10 22:23:06] 🎉 714 inventory rows imported (warnings: 0)
-[2026-03-10 22:23:07] 📥 Import started → expense
-[2026-03-10 22:23:08] ✅ Excel loaded | rows=77
-[2026-03-10 22:23:08] 🎉 77 rows imported into expense
-[2026-03-10 22:23:09] 📥 Import started → owner
-[2026-03-10 22:23:09] ✅ Excel loaded | rows=2
-[2026-03-10 22:23:09] 🎉 2 rows imported into owner
-[2026-03-10 22:23:12] Menu clicked: Reporting
-[2026-03-10 22:23:46] Menu clicked: Exit
+[2026-03-10 22:37:38] Menu clicked: Reporting
+[2026-03-10 22:37:39] Menu clicked: Dashboard
+[2026-03-10 22:37:46] Menu clicked: Owners
+[2026-03-10 22:37:47] Menu clicked: Expenses
+[2026-03-10 22:37:49] Menu clicked: Exit
